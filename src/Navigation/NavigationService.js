@@ -1,4 +1,5 @@
 import {NavigationActions} from '@react-navigation/native';
+import * as React from 'react';
 
 let _navigator;
 
