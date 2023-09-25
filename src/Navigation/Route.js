@@ -1,12 +1,11 @@
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import Home from './Screens/Home';
-import ProductDetail from './Screens/ProductDetail';
-import Profile from './Screens/Profile';
-import Settings from './Screens/Settings';
+import Home from '../Screens/Home';
+import Settings from '../Screens/Settings';
+import ProductDetail from '../Screens/ProductDetails';
+import Profile from '../Screens/Profile';
 import NavigationService from './NavigationService';
-
 const Stack = createNativeStackNavigator();
 
 export function Route() {

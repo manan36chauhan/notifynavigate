@@ -88,14 +88,14 @@ android {
         versionCode 1
         versionName "1.0"
     }
-    splits {
-        abi {
-            reset()
-            enable enableSeparateBuildPerCPUArchitecture
-            universalApk false  // If true, also generate a universal APK
-            include (*reactNativeArchitectures())
-        }
-    }
+//    splits {
+//        abi {
+//            reset()
+//            dis enableSeparateBuildPerCPUArchitecture
+//            universalApk false  // If true, also generate a universal APK
+//            include (*reactNativeArchitectures())
+//        }
+//    }
     signingConfigs {
         debug {
             storeFile file('debug.keystore')
